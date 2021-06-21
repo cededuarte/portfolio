@@ -1,0 +1,164 @@
+/* Portfolio */
+
+.project-heading {
+  font-size: 56px;
+  font-weight: 400;
+  padding: 2rem;
+  margin-bottom: 20px;
+}
+
+.portfolio-container {
+/*  font-family: "Exo 2", sans-serif;*/
+  display: flex;
+  color: rgb(0, 0, 0);
+  /*font-size: 1.3rem;*/
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.portfolio-container h1 {
+  margin: 2px 0;
+  
+}
+
+.projects-container {
+  min-height: 60vh;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.projects {
+  height: 23rem;
+  width: 21rem;
+  margin: 1rem;
+  /* background: #e7dddd5c; */
+  box-shadow: 3px 2px 10px gray;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.project-images {
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  border-bottom: 1px solid #55198b;
+  height: 70%;
+}
+
+/* Images */
+#coronaTracker {
+  background-image: url("./project-images/covid1.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#oldportfolio {
+  background-image: url("./project-images/oldportfolio.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#quizApp {
+  background-image: url("./project-images/quiz.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#loadedfitness {
+  background-image: url("./project-images/loadedfitness.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#cagefit {
+  background-image: url("./project-images/cagefit.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#bmrcalculator {
+  background-image: url("./project-images/bmrcalculator.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#casedigestscompiler {
+  background-image: url("./project-images/casedigestscompiler.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#nbastatscraper {
+  background-image: url("./project-images/nbastatscraper.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-links .text {
+  width: 100%;
+  height: 50%;
+  color: black;
+/*  font-family: "Varela Round", sans-serif;
+  font-size: 0.8rem;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-links .icons {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons #github {
+  background-color: rgb(51, 51, 51);
+}
+
+.icons #github:hover {
+  background-color: rgb(15, 15, 15);
+}
+
+.icons #live {
+  background-color: rgb(16, 88, 16);
+}
+
+.icons #live:hover {
+  background-color: rgb(16, 65, 88);
+}
+
+.icons i {
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  /*font-size: 1.3rem;*/
+  height: 2.6rem;
+  line-height: 2.6rem;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  width: 2.6rem;
+  border-radius: 2.6rem;
+  margin: 0px 5px 10px;
+  transition: all 0.2s ease-in 0s;
+}
