@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d6845913d59ed214c2c6b9818008e10",
+    "revision": "0de5fe5b713a2e1cc3aca3a23e860a51",
     "url": "./index.html"
   },
   {
-    "revision": "7e15b02b2b65f7e08625",
-    "url": "./static/css/3.3a26ebde.chunk.css"
+    "revision": "cfd577a759d576e2ed14",
+    "url": "./static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "547f24352cf3fb93f784",
-    "url": "./static/css/main.39454bda.chunk.css"
+    "revision": "5af6c9d52e315f0d5b30",
+    "url": "./static/css/main.30eae2bb.chunk.css"
   },
   {
-    "revision": "d6eddbee1ee034c48550",
-    "url": "./static/js/2.41544f87.chunk.js"
+    "revision": "a3558442d88799c3f59c",
+    "url": "./static/js/2.3d65fe8d.chunk.js"
   },
   {
     "revision": "0a6d64cd3b49be6a14afdf21fa7c6d43",
-    "url": "./static/js/2.41544f87.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.3d65fe8d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e15b02b2b65f7e08625",
-    "url": "./static/js/3.bb119f49.chunk.js"
+    "revision": "cfd577a759d576e2ed14",
+    "url": "./static/js/3.7998c30a.chunk.js"
   },
   {
-    "revision": "547f24352cf3fb93f784",
-    "url": "./static/js/main.09e49278.chunk.js"
+    "revision": "5af6c9d52e315f0d5b30",
+    "url": "./static/js/main.f2d5a664.chunk.js"
   },
   {
-    "revision": "d089f1626f4f84e6b053",
-    "url": "./static/js/runtime-main.2b80b5ed.js"
+    "revision": "eb656ead9a71e1638bed",
+    "url": "./static/js/runtime-main.a630a060.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -76,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/loadedfitness.a77cfc42.PNG"
   },
   {
+    "revision": "26c62bd6372f34fbf4cfd4c5c683c812",
+    "url": "./static/media/logisticstools2.26c62bd6.png"
+  },
+  {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
     "url": "./static/media/manOnTable.52be3144.svg"
   },
@@ -108,7 +112,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/skill.34409398.svg"
   },
   {
-    "revision": "39eff4a91b01e00a32cb78f3797eec88",
-    "url": "./static/media/talksCardBack.39eff4a9.svg"
+    "revision": "13780cdd0144cacdef25486e2c2503f8",
+    "url": "./static/media/talksCardBack.13780cdd.svg"
   }
 ]);
