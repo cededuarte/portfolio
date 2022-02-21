@@ -7,7 +7,7 @@ export default function Education() {
    if(workExperiences.display){
     return (
       <div className="education-section" id="experience">
-          <h1 className="education-heading">Work Experiences</h1>
+          <h1 className="education-heading">Experience</h1>
           <div className="education-card-container">
             {workExperiences.schools.map((school) => (
               <ExperienceCard school={school} />

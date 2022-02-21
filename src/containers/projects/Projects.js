@@ -1,4 +1,4 @@
-import React, { useState, useEffect, lazy, Suspense } from "react";
+import React, { useState, useContext, useEffect, lazy, Suspense } from "react";
 import ApolloClient from "apollo-boost";
 import { gql } from "apollo-boost";
 import "./Project.css";
@@ -8,6 +8,9 @@ import { openSource, socialMediaLinks } from "../../portfolio";
 import { Fade } from "react-reveal";
 import { motion } from "framer-motion";
 import BlogCard from "../../components/blogCard/BlogCard";
+import Tooltip from 'react-tooltip-lite';
+import StyleContext from "../../contexts/StyleContext";
+
 
 
 const boxVariants = {
@@ -38,6 +41,11 @@ export default function Projects() {
 
 
         {/* Project 1 - Corona Tracker */}
+        <Tooltip content="HTML, Javascript, API Fetching"
+            tagName="span"
+            className="target customTip"
+            direction="up"            
+        >
         <motion.div
           className="projects"
           variants={boxVariants}
@@ -55,7 +63,7 @@ export default function Projects() {
             <div className="icons">
               <a
                 rel="noopener noreferrer"
-                href="https://drive.google.com/file/d/1x1YA-HoLbJGbiu1eFmoSpiYFXACMxqQn/view?usp=sharing"
+                href=""
                 target="_blank"
                 
               >
@@ -78,8 +86,7 @@ export default function Projects() {
             </div>
           </div>
         </motion.div>
-
-
+        </Tooltip>
 
 
 
@@ -87,6 +94,11 @@ export default function Projects() {
 
 
         {/* Project 2 - oldportfolio */}
+        <Tooltip content="HTML, Javascript, Bootstrap"
+            tagName="span"
+            className="target customTip"
+            direction="up"            
+        >
         <motion.div
           variants={boxVariants}
           whileHover="hover"
@@ -128,10 +140,15 @@ export default function Projects() {
             </div>
           </div>
         </motion.div>
-
+        </Tooltip>
 
 
         {/* Project 3 - Quiz App */}
+        <Tooltip content="HTML, Javascript, Bootstrap"
+            tagName="span"
+            className="target customTip"
+            direction="up"            
+        >
         <motion.div
           variants={boxVariants}
           whileHover="hover"
@@ -172,8 +189,14 @@ export default function Projects() {
             </div>
           </div>
         </motion.div>
+        </Tooltip>
 
         {/* Project 4 - cagefit */}
+        <Tooltip content="HTML, Javascript, Bootstrap"
+            tagName="span"
+            className="target customTip"
+            direction="up"            
+        >
         <motion.div
           variants={boxVariants}
           whileHover="hover"
@@ -215,8 +238,14 @@ export default function Projects() {
             </div>
           </div>
         </motion.div>
+        </Tooltip>
 
         {/* Project 5 - loadedfitness */}
+        <Tooltip content="HTML, Javascript, ReactJS, GraphQL"
+            tagName="span"
+            className="target customTip"
+            direction="up"            
+        >
         <motion.div
           variants={boxVariants}
           whileHover="hover"
@@ -258,9 +287,14 @@ export default function Projects() {
             </div>
           </div>
         </motion.div>
-      
+        </Tooltip>     
 
         {/* Project 6 - bmrcalculator */}
+        <Tooltip content="HTML, Javascript, Bootstrap"
+            tagName="span"
+            className="target customTip"
+            direction="up"            
+        >
         <motion.div
           variants={boxVariants}
           whileHover="hover"
@@ -302,9 +336,14 @@ export default function Projects() {
             </div>
           </div>
         </motion.div>
-
+      </Tooltip>
 
         {/* Project 7 - casedigestscompiler */}
+        <Tooltip content="HTML, Javascript, Laravel, Heroku"
+            tagName="span"
+            className="target customTip"
+            direction="up"            
+        >
         <motion.div
           variants={boxVariants}
           whileHover="hover"
@@ -346,8 +385,15 @@ export default function Projects() {
             </div>
           </div>
         </motion.div>      
+        </Tooltip>
+
 
         {/* Project 8 - nbastatscraper */}
+        <Tooltip content="HTML, Python, Flask"
+            tagName="span"
+            className="target customTip"
+            direction="up"            
+        >
         <motion.div
           variants={boxVariants}
           whileHover="hover"
@@ -362,7 +408,7 @@ export default function Projects() {
           </a>
           <div className="project-links">
             <div className="text">
-              <h5>Sports Scraper(NBA) - Pending</h5>
+              <h5>Sports Scraper(NBA) - On hold</h5>
             </div>
             <div className="icons">
               <a
@@ -389,9 +435,59 @@ export default function Projects() {
             </div>
           </div>
         </motion.div>      
+        </Tooltip>
 
-
-
+        {/* Project 9 - Logistics Internal tools */}
+        <Tooltip content="HTML, Javascript, Bootstrap"
+            tagName="span"
+            className="target customTip"
+            direction="up"            
+        >
+          
+        <motion.div
+          variants={boxVariants}
+          whileHover="hover"
+          className="projects"
+        >
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            
+          >
+            <div className="project-images" id="logisticstools2"></div>
+          </a>
+          <div className="project-links">
+            <div className="text">
+              <h5>Logistics Tools - 8 Internal Features</h5> 
+            </div>
+            
+            <div className="icons">
+              <a
+                rel="noopener noreferrer"
+                href="https://github.com/cededuarte/LogExecTools.git"
+                target="_blank"
+                
+              >
+                <i className="fab fa-github" title="github repo" id="github">
+                  {" "}
+                </i>
+              </a>
+              <a
+                rel="noopener noreferrer"
+                href="https://cededuarte.github.io/LogExecTools/straightforecast.html"
+                target="_blank"
+              >
+                {" "}
+                <i
+                  className="fas fa-external-link-alt"
+                  title="live preview"
+                  id="live"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </motion.div> 
+        </Tooltip>
 
 
       </div>

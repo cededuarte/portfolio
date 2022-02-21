@@ -5,19 +5,19 @@
 import emoji from 'react-easy-emoji';
 
 const illustration = {
-  animated: true, // set to false to use static SVG
+  animated: false, // set to false to use static SVG
 };
 
 const greeting = {
   username: 'Cedric Angelo Eduarte',
   title: "Hi, I'm Ced",
 
-  subTitle: emoji("🚀 Service Delivery Officer | Senior Logistics Associate "),
-  subTitle1: emoji("🚀 Full Stack Web Developer"),
-  subTitle2: emoji("🚀 Junior Project Manager/Project Assistant"),
+  subTitle: emoji("🚀 Service Delivery Officer | Senior Logistics Lead "),
+  subTitle1: emoji("🚀 Freelance Full Stack Web Developer"),
+  subTitle2: emoji("🚀 Project Coordinator"),
   
   resumeLink:
-    'https://drive.google.com/file/d/1G9dw1Ps_qMOLQmAHr4EINmnXpnnGBy1J/view?usp=sharing',
+  'https://drive.google.com/file/d/1G9dw1Ps_qMOLQmAHr4EINmnXpnnGBy1J/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -45,7 +45,6 @@ const skillsSection = {
     emoji("🚀 AS A SERVICE DELIVERY OFFICER | SENIOR  LOGISTICS ASSOCIATE: "),
     emoji("⚡ Oversee personnels' day to day schedule and tasks "),
     emoji("⚡ Assign duties, responsibilities, and spans of authority to project personnel"),
-    emoji("⚡ Monitor or track project milestones and deliverables"),
     emoji("⚡ Manage project execution to ensure adherence to schedule, and scope"),
     emoji("⚡ Facilitate adherence to complex Service Level Agreement(SLA) with operators"),
     emoji("⚡ Manage conflicts, and ensuring the team's processes and tasks are carried out efficiently"),
@@ -53,8 +52,12 @@ const skillsSection = {
     emoji("🚀 AS A FREELANCE FULL STACK WEB DEVELOPER: "),
     emoji("⚡ Develops highly interactive Front end / User Interfaces for web and mobile applications"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Automating data collection through python scripts"),
-
+    emoji("⚡ Automating data collection through scripts"),
+    emoji("🚀 AS A JUNIOR PROJECT MANAGER | PROJECT COORDINATOR: "),
+    emoji("⚡ Participate in project design, scheduling and coordinate with all  the team members"),
+    emoji("⚡ Manage project-related works by ensuring all project materials are documented and available"),
+    emoji("⚡ Communicate with clients to identify project requrirements, scope and objectives"),
+    emoji("⚡ Monitor or track project milestones and deliverables"),
     
   ],
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -120,12 +123,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
+      skillName: "flask",
+      fontAwesomeClassname: "fa-solid fa-flask"
+    },
+    {
       skillName: "git",
       fontAwesomeClassname: "fab fa-git"
     },
     {
       skillName: "jira",
       fontAwesomeClassname: "fab fa-jira"
+    },
+    {
+      skillName: "confluence",
+      fontAwesomeClassname: "fab fa-confluence"
+    },
+    {
+      skillName: "trello",
+      fontAwesomeClassname: "fab fa-trello"
     }
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -139,7 +154,7 @@ const educationInfo = {
     {
       schoolName: 'Zuitt Web Development Bootcamp',
       
-      subHeader: 'Software Engineering & Full Stack Web Development',
+      subHeader: 'Full Stack Web Development',
       duration: 'June 2019 - December 2019',
     },
     {
@@ -169,15 +184,15 @@ const techStack = {
 
     {
       Stack: "Ability to Multitask",
-      progressPercentage: "90%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Adaptability",
-      progressPercentage: "90%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Leadership and Teamwork",
-      progressPercentage: "90%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Interpersonal Communication",
@@ -185,7 +200,7 @@ const techStack = {
     },
     {
       Stack: "Front End Development",  //Insert stack or technology you have experience in
-      progressPercentage: "100%"  //Insert relative proficiency in percentage
+      progressPercentage: "80%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Back End Development",
@@ -209,38 +224,39 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   schools: [
     {
-      schoolName: 'Service Delivery Officer | Senior Logistics Associate',
-      
+      schoolName: 'Service Delivery Officer | Logistics Lead',
       subHeader: 'Kambi Philippines Inc., Makati City',
       duration: 'July 2016 - Present',
+      descBullets: [
+      
+      ]
     },
     {
-      schoolName: 'Junior Project Manager/Project Assistant',
-      subHeader: 'Zuitt/Tokyo University, Makati City',
-      duration: 'March 2020 - November 2020',
-    },
-    {
-      schoolName: "Digitizer/Quality Controller",
-      subHeader: 'Zuitt/Tokyo University, Makati City',
-      duration: 'February 2020 - April 2020',
-    },
-    {
-      schoolName: 'Second Line Support Officer - Sports Ops',
-      subHeader: ' Everlounge Inc., Makati City',
-      duration: 'June 2016 - July 2016',
+      schoolName: 'Project Coordinator | Quality Controller',
+      subHeader: 'Tokyo University in collaboration with Zuitt, Makati City',
+      duration: 'February 2020 - November 2020',
+      descBullets: [
 
+      ]
     },
+    // {
+    //   schoolName: "Digitizer/Quality Controller",
+    //   subHeader: 'Zuitt/Tokyo University, Makati City',
+    //   duration: 'February 2020 - April 2020',
+    // },
+    // {
+    //   schoolName: 'Second Line Support Officer - Sports Ops',
+    //   subHeader: ' Everlounge Inc., Makati City',
+    //   duration: 'June 2016 - July 2016',
+
+    // },
     {
       schoolName: 'Assistant Bookmaker',
       subHeader: 'Yew Tree Services Inc., Makati City',
       duration: 'May 2013 - January 2016',
+      descBullets: [
 
-    },
-    {
-      schoolName: 'Instructor I',
-      subHeader: 'Rizal Tech University, Mandaluyong City',
-      duration: 'March 2013 - May 2013',
-
+      ]
     },
   ],
 };
