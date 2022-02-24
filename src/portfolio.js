@@ -17,7 +17,7 @@ const greeting = {
   subTitle2: emoji("🚀 Project Coordinator"),
   
   resumeLink:
-  'https://drive.google.com/file/d/1G9dw1Ps_qMOLQmAHr4EINmnXpnnGBy1J/view?usp=sharing',
+  'https://drive.google.com/file/d/1ri53blMbCWS0lKLoL6-ce6eLM5C1S3Q1/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -244,14 +244,14 @@ const workExperiences = {
     //   subHeader: 'Zuitt/Tokyo University, Makati City',
     //   duration: 'February 2020 - April 2020',
     // },
-    // {
-    //   schoolName: 'Second Line Support Officer - Sports Ops',
-    //   subHeader: ' Everlounge Inc., Makati City',
-    //   duration: 'June 2016 - July 2016',
-
-    // },
     {
-      schoolName: 'Assistant Bookmaker',
+      schoolName: 'Second Line Support Officer - Sports Operations',
+      subHeader: ' Everlounge Inc., Makati City',
+      duration: 'Jan 2016 - Jul 2016',
+
+    },
+    {
+      schoolName: 'Assistant Bookmaker / Sports Analyst',
       subHeader: 'Yew Tree Services Inc., Makati City',
       duration: 'May 2013 - January 2016',
       descBullets: [
