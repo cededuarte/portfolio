@@ -12,7 +12,7 @@ const greeting = {
   username: 'Cedric Angelo Eduarte',
   title: "Hi, I'm Ced",
 
-  subTitle: emoji("🚀 Service Delivery Officer | Senior Logistics Lead "),
+  subTitle: emoji("🚀 Service Delivery Officer | Sr Logistics Lead "),
   subTitle1: emoji("🚀 Freelance Full Stack Web Developer"),
   subTitle2: emoji("🚀 Project Coordinator"),
   
